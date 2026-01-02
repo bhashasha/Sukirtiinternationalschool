@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sukirti International School</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family:"Segoe UI",Arial,sans-serif;
+    background:#f2f2f2;
+    color:#333;
+    line-height:1.7;
+}
+header{
+    background:#2f4f6f;
+    color:#fff;
+    text-align:center;
+    padding:30px 15px;
+}
+nav{
+    background:#e0e0e0;
+    text-align:center;
+    padding:12px;
+}
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#2f4f6f;
+    font-weight:600;
+}
+.hero{
+    height:420px;
+    background:url("WhatsApp Image 2026-01-02 at 12.31.06.jpeg") center/cover no-repeat;
+}
+.container{
+    width:92%;
+    max-width:1200px;
+    margin:40px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.08);
+}
+.section-title{
+    font-size:1.9em;
+    margin-bottom:20px;
+    color:#2f4f6f;
+    border-bottom:3px solid #ccc;
+    padding-bottom:6px;
+}
+footer{
+    background:#2f4f6f;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+}
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:#fff;
+    padding:14px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* Slider */
+.slider{
+    position:relative;
+    overflow:hidden;
+}
+.slides{
+    display:flex;
+    animation:slide 8s infinite;
+}
+.slides img{
+    width:100%;
+    border-radius:8px;
+}
+@keyframes slide{
+    0%{transform:translateX(0);}
+    50%{transform:translateX(-100%);}
+    100%{transform:translateX(0);}
+}
+
+/* Form */
+form input, form textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+form button{
+    background:#2f4f6f;
+    color:#fff;
+    padding:12px 25px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Sukirti International School</h1>
+<p>Bagus Road, Bagru, Dahmi Kalan, Rajasthan – 303007</p>
+<p>Contact: 098287 11492</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#academics">Academics</a>
+<a href="#activities">Activities</a>
+<a href="#principal">Principal</a>
+<a href="#gallery">Gallery</a>
+<a href="#admission">Admission</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero"></section>
+
+<!-- EXISTING SECTIONS KEPT INTACT -->
+<div class="container" id="about">
+<h2 class="section-title">About the School</h2>
+<p>Sukirti International School is a value-based educational institution committed to intellectual excellence, ethical responsibility, and holistic development.</p>
+<p>The school integrates traditional values with modern pedagogy to nurture confident and responsible learners.</p>
+<p>Experienced educators ensure personalised attention and balanced growth.</p>
+</div>
+
+<div class="container" id="academics">
+<h2 class="section-title">Academic Framework</h2>
+<p>The curriculum promotes analytical thinking, conceptual clarity, and interactive learning.</p>
+<p>Core subjects are supported with digital literacy and environmental education.</p>
+<p>Continuous assessment supports academic progress.</p>
+</div>
+
+<div class="container" id="activities">
+<h2 class="section-title">Co-Curricular & Other Activities</h2>
+<p>Sports, yoga, fitness programmes develop discipline and physical well-being.</p>
+<p>Music, art, drama, and cultural programmes nurture creativity.</p>
+<p>Debates, quizzes, and literary activities enhance communication skills.</p>
+<p>Environmental and social initiatives instil civic responsibility.</p>
+<p>The school ensures all-round development beyond classrooms.</p>
+</div>
+
+<!-- NEW PRINCIPAL MESSAGE -->
+<div class="container" id="principal">
+<h2 class="section-title">Principal’s Message</h2>
+<p>
+At Sukirti International School, education is a journey of intellectual discovery, moral development, and personal growth. Our mission is to create an environment where every child feels valued, inspired, and empowered to achieve excellence.
+</p>
+<p>
+We believe that learning should cultivate curiosity, discipline, compassion, and confidence. Through dedicated faculty, structured academics, and co-curricular engagement, we prepare students not only for examinations, but for life.
+</p>
+<p>
+I invite parents and students to join us in building a strong foundation for a meaningful and successful future.
+</p>
+<p><strong>— Principal, Sukirti International School</strong></p>
+</div>
+
+<!-- GALLERY SLIDER -->
+<div class="container" id="gallery">
+<h2 class="section-title">School Gallery</h2>
+<div class="slider">
+<div class="slides">
+<img src="WhatsApp Image 2026-01-02 at 12.31.06.jpeg">
+<img src="WhatsApp Image 2026-01-02 at 12.31.02.jpeg">
+</div>
+</div>
+</div>
+
+<!-- ONLINE ADMISSION FORM -->
+<div class="container" id="admission">
+<h2 class="section-title">Online Admission Enquiry</h2>
+<form>
+<input type="text" placeholder="Student Name" required>
+<input type="number" placeholder="Age / Class Applying For" required>
+<input type="text" placeholder="Parent / Guardian Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<input type="email" placeholder="Email Address">
+<textarea rows="4" placeholder="Any specific enquiry"></textarea>
+<button type="submit">Submit Enquiry</button>
+</form>
+</div>
+
+<!-- CONTACT + MAP -->
+<div class="container" id="contact">
+<h2 class="section-title">Contact & Location</h2>
+<p><strong>Address:</strong><br>RHG5+PG9, Bagus Road, Bagru, Dahmi Kalan, Rajasthan – 303007</p>
+<p><strong>Phone:</strong> 098287 11492</p>
+
+<iframe 
+src="https://www.google.com/maps?q=RHG5%2BPG9%20Bagru%20Rajasthan&output=embed"
+width="100%" height="350" style="border:0;" allowfullscreen loading="lazy">
+</iframe>
+</div>
+
+<footer>
+<p>© 2026 Sukirti International School. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp-btn" href="https://wa.me/919828711492" target="_blank">
+WhatsApp Us
+</a>
+
+</body>
+</html>
